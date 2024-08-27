@@ -1,21 +1,17 @@
-# Subir cambios a DEV
-> Está guía explica en sencillos pasos como subir correctamente tu rama a Dev y no morir en el intento
+# Subir rama a DEV
+> Está guía explica en sencillos pasos como subir correctamente tu rama a DEV y no morir en el intento
 - [ ] Verificar rama en la que se está trabajando.
 - [ ] Actualizar rama local de dev a los ultimos cambios de origin.
-- [ ] 
+- [ ] Hacer merge de tu rama hacia DEV
 
 <details>
 
-<summary>Tips for collapsed sections</summary>
+<summary>Verificar rama</summary>
 
-### You can add a header
+- Revisa que estás realmente en la rama a subir
+   - se puede verificar usando el comando: `git branch --show-current`
+- Checar que no tengas commits pendientes
+   - se puede verificar usando el comando: `git log <origin/[nombre de tu rama]>..<nombre de tu rama>`
 
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
 
 </details>
